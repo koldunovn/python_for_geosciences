@@ -13,7 +13,7 @@ Short introoduction to python use in geosciences.
 
 [04 Work with different data formats](http://nbviewer.ipython.org/urls/raw.github.com/koldunovn/python_for_geosciences/master/04%2520-%2520Work%2520with%2520different%2520data%2520formats.ipynb)
 
-[05 Graphs and maps (Matplotlib and Basemap)](https://raw.github.com/koldunovn/python_for_geosciences/master/05%20-%20Graphs%20and%20maps%20%28Matplotlib%20and%20Basemap%29.ipynb)
+[05 Graphs and maps (Matplotlib and Basemap)](http://nbviewer.ipython.org/urls/raw.github.com/koldunovn/python_for_geosciences/master/05%2520-%2520Graphs%2520and%2520maps%2520%2528Matplotlib%2520and%2520Basemap%2529.ipynb)
 
 [06 Time series analysis (Pandas)](http://nbviewer.ipython.org/urls/raw.github.com/koldunovn/python_for_geosciences/master/06%2520-%2520Time%2520series%2520analysis%2520%2528Pandas%2529.ipynb)
 
