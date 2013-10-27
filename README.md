@@ -1,7 +1,22 @@
 Python for Geosciences
 ======================
 
-Short introoduction to python use in geosciences. 
+This is a short overview of how Python is used in science and particularly in geosciences. 
+The idea is to show how to setup Python for purposes of scientific computation and visualization, cover some basic features of the language and show some of the real world applications such as:
+
+* Array manipulations.
+* I/O (binary, txt, netCDF, mat).
+* Creation of maps and graphics.
+* Time series analysis.
+
+This overview is aimed at the scientists who are interested in Python but don't know how to start using it (this might be really confusing for a newcomer), or would like to learn more about possible Python applications. For those of you who already use Python there will be nothing really new.
+
+This notes will be helpful only if you know some programming language already (preferably Matlab). Notes are also avalible as webpages at [earthpy.org](http://earthpy.org/category/introduction-to-python.html).
+
+PRs with corrections are very welcomed.
+
+Links to nbviewer versions
+======================
 
 [00 Why python?](http://nbviewer.ipython.org/urls/raw.github.com/koldunovn/python_for_geosciences/master/00%2520-%2520Why%2520Python.ipynb)
 
