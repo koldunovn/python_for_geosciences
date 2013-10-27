@@ -19,6 +19,8 @@ Short introoduction to python use in geosciences.
 
 [07 Other modules for geoscientists and collection of links](http://nbviewer.ipython.org/urls/raw.github.com/koldunovn/python_for_geosciences/master/07%2520-%2520Other%2520modules%2520for%2520geoscientists.ipynb)
 
+[Links](http://nbviewer.ipython.org/urls/raw.github.com/koldunovn/python_for_geosciences/master/Links.ipynb)
+
 Author
 ========
 Nikolay Koldunov
