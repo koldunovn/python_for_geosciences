@@ -15,6 +15,64 @@ This notes will be helpful only if you know some programming language already (p
 
 PRs with corrections are very welcomed.
 
+## Getting started for Linux/Mac
+
+The fastest way is to install [Miniconda](http://conda.pydata.org/miniconda.html), that contains [`conda`](http://conda.pydata.org/docs/intro.html) package manager and `Python`. On the [Miniconda](http://conda.pydata.org/miniconda.html) page select **Python 3** installer script for your system and download it, for example:
+
+```
+wget https://repo.continuum.io/miniconda/Miniconda3-latest-MacOSX-x86_64.sh
+```
+
+Change mode of the downloaded scrip to executable, e.g.:
+
+```
+chmod +x Miniconda3-latest-MacOSX-x86_64.sh
+```
+
+Run installation process:
+```
+./Miniconda3-latest-MacOSX-x86_64.sh
+```
+At the end the script will offer you to add Miniconda3 install location to the PATH in your `.bashrc/.bash_profile`. You should say 'yes'. Please double check that you have something like this in your `.bashrc/.bash_profile`:
+
+```
+# added by Miniconda3 4.3.21 installer
+export PATH="/Users/koldunovn/miniconda3/bin:$PATH"
+```
+If you for whatever strange reason use csh/tcsh, then add to your `.cshrc`:
+
+```
+setenv PATH /Users/koldunovn/miniconda3/bin:$PATH
+```
+Now you can open a new terminal window (sourcing not always works) and try to type:
+
+```
+conda
+```
+if as a result you see conda help, then everything is set up properly. The last thing before installing packages is to add `conda-forge` channel:
+```
+conda config --add channels conda-forge 
+```
+Now you can install nessesary packages:
+```
+conda install ipython jupyter
+```
+To begin working with notebooks execute:
+```
+jupyter notebook
+```
+the browser should pop up with jupyter main page. You can navigate to the folder with notebooks from there and open them.
+
+## Getting started for Windows
+
+- First you have to download and install Anaconda python distribution for your system from [here](http://continuum.io/downloads). If installation is sucessful, you will be able to work with notebooks from 02 to 07. In order to work with `netCDF` files and `Basemap` some additional steps are required.
+
+- Go to start menu, choose `run` and execute `cmd` in order to bring up windows command line.
+- Change to `Anaconda\Scripts` directory by executing `cd Anaconda\Scripts`
+- execute `conda install netcdf4 basemap` and agree with installation
+- in order to make all examples to work we have to downgrade pandas to version 0.15.2. For this execute `conda install pandas=0.15.2`
+
+
 Links to nbviewer versions
 ======================
 
