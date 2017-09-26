@@ -55,7 +55,7 @@ conda config --add channels conda-forge
 ```
 Now you can install nessesary packages:
 ```
-conda install ipython jupyter
+conda install ipython jupyter matplotlib scipy pandas basemap netcdf4
 ```
 To begin working with notebooks execute:
 ```
