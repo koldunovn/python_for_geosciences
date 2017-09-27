@@ -70,7 +70,6 @@ the browser should pop up with jupyter main page. You can navigate to the folder
 - Go to start menu, choose `run` and execute `cmd` in order to bring up windows command line.
 - Change to `Anaconda\Scripts` directory by executing `cd Anaconda\Scripts`
 - execute `conda install netcdf4 basemap` and agree with installation
-- in order to make all examples to work we have to downgrade pandas to version 0.15.2. For this execute `conda install pandas=0.15.2`
 
 
 Links to nbviewer versions
