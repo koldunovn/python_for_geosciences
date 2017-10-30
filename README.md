@@ -1,6 +1,8 @@
 Python for Geosciences
 ======================
 
+You can run this notebooks interactevellu on [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/koldunovn/python_for_geosciences/master)
+ 
 This is a short overview of how Python is used in science and particularly in geosciences. 
 The idea is to show how to setup Python for purposes of scientific computation and visualization, cover some basic features of the language and show some of the real world applications such as:
 
