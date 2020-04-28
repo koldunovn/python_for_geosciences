@@ -57,7 +57,7 @@ conda config --add channels conda-forge
 ```
 Now you can install nessesary packages:
 ```
-conda install ipython jupyter matplotlib scipy pandas basemap netcdf4
+conda install ipython jupyter matplotlib scipy pandas basemap netcdf4 requests xarray cartopy
 ```
 To begin working with notebooks execute:
 ```
@@ -71,7 +71,7 @@ the browser should pop up with jupyter main page. You can navigate to the folder
 
 - Go to start menu, choose `run` and execute `cmd` in order to bring up windows command line.
 - Change to `Anaconda\Scripts` directory by executing `cd Anaconda\Scripts`
-- execute `conda install netcdf4 basemap` and agree with installation
+- execute `conda install netcdf4 basemap requests xarray cartopy` and agree with installation
 
 
 Links to nbviewer versions
