@@ -67,7 +67,7 @@ the browser should pop up with jupyter main page. You can navigate to the folder
 
 ## Getting started for Windows
 
-- First you have to download and install Anaconda python distribution for your system from [here](http://continuum.io/downloads). If installation is sucessful, you will be able to work with notebooks from 02 to 07. In order to work with `netCDF` files and `Basemap` some additional steps are required.
+- First you have to download and install Anaconda python distribution for your system from [here](https://www.anaconda.com/products/individual#windows) (scroll down to "Anaconda installers"). If installation is sucessful, you will be able to work with notebooks from 02 to 07. In order to work with `netCDF` files and `Basemap` some additional steps are required.
 
 - Go to start menu, choose `run` and execute `cmd` in order to bring up windows command line.
 - Change to `Anaconda\Scripts` directory by executing `cd Anaconda\Scripts`
